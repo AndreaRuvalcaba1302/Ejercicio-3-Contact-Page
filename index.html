@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Becv</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="page-container">
+        <header class="main-header">
+            <img src="resources/Logo.svg" alt="Logo de Becv" class="logo">
+            <h1>Interested in our<br>business pricing?</h1>
+            <p>Fill out the form to view details and we'll contact<br>you as soon as possible.</p>
+        </header>
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Ethan Johnson" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="email">Company Email</label>
+                    <input type="email" id="email" placeholder="ethan@johnson.com" class="form-input">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="company-size">Company Size</label>
+                    <div class="select-wrapper">
+                        <select id="company-size" class="form-input">
+                            <option selected disabled>50-100 employees</option>
+                            <option>1-10 employees</option>
+                            <option>10-50 employees</option>
+                            <option>100+ employees</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <div class="select-wrapper">
+                        <select id="subject" class="form-input">
+                            <option selected disabled>Building Landing pages</option>
+                            <option>Consulting</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="50-100 employees" class="form-input form-textarea"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Contact Sales</button>
+        </form>
+    </main>
+</body>
+</html>
